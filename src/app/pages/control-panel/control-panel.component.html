@@ -1,0 +1,9 @@
+@if(devicesData){
+<div class="control-panel">
+  <app-control-panel-pie-chart [devicesData]="devicesData" />
+  <app-control-panel-scanner-status [devicesData]="devicesData" />
+  <app-control-panel-firmware-version [devicesData]="devicesData" />
+</div>
+} @else {
+<h1>Loading...</h1>
+}

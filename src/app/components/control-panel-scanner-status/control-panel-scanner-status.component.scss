@@ -1,0 +1,27 @@
+@media (min-width: 1024px) {
+  :host {
+    width: 32%;
+    margin: 0 .6%;
+  }
+}
+
+.control-panel-box {
+  &_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &_status{
+    display: flex;
+    margin-bottom: 1rem;
+
+    &_number{
+        margin-right: 1rem;
+    }
+    
+  }
+}

@@ -1,0 +1,11 @@
+.control-panel{
+    padding: 1rem;
+
+    @media(min-width: 1024px){
+        padding: 1rem 5rem;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
