@@ -1,4 +1,4 @@
 export const environment = {
-  username : 'lukaperickv@gmail.com',
-  password : 'Kiviman123!!',
+  username : 'test@email.com',
+  password : 'Password!',
 };
